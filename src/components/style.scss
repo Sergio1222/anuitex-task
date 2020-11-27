@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(212, 234, 253);
+}
+
+.app-container {
+  margin: 0 auto;
+  background-color: white;
+  width: 450px;
+  margin-top: 55px;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 145px;
+  padding-bottom: 20px;
+  box-shadow: 2px 8px 35px black;
+
+  &__card {
+    width: 315px;
+    height: 173px;
+    position: absolute;
+    top: -45px;
+    right: 63px;
+    box-shadow: 2px 8px 35px black;
+    border-radius: 8px;
+  }
+
+  &__input {
+    margin: 5px 0px 0px 10px;
+    text-align: center;
+  }
+}
+
+
+.input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1.5px solid darkgray;
+  outline: none;
+  font-size: 16px;
+
+  &-valid {
+    border: 2px solid green;
+  }
+
+  &-invalid {
+    border: 2px solid red;
+  }
+}
+
+.message {
+  display: flex;
+  color: red;
+  font-weight: 600;
+  margin: 0px 0px 20px 0px;
+  padding-left: 60px;
+}
+
+label {
+  font-weight: 700;
+  margin: 0px;
+}
